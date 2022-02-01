@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freeCodeCmap project">
+    <meta name="keywords" content="freeCodeCmap, product, landing">
+    <meta name="author" content="Nino Dautashvili">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#video">How it Works</a></li>
+                <li><a class="nav-link" href="#prices">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="whole-page">
+        <div class="container">
+            <h1>Handcrafted, home-made masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                <input id="submit" type="submit" value="get started">
+            </form>
+
+            <div id="features">
+                <div class="premium">
+                    <img src="https://thumbs.dreamstime.com/b/fire-logo-red-yellow-fire-fire-logo-red-yellow-fire-vector-123063786.jpg" alt="fire">
+                    <div class="text">
+                        <h5>Premium Materials</h5>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="premium">
+                    <img src="data:image/png;base64,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" alt="lorry">
+                    <div class="text">
+                        <h5>Fast Shipping</h5>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="premium">
+                    <img src="https://www.wirefly.com/sites/wirefly.com/files/styles/guide_landing/public/iphone-battery-yellow.jpg?itok=Dw04bxyh" alt="battery">
+                    <div class="text">
+                        <h5>Quality Assurance</h5>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid">
+                <iframe id="video" width="560" height="316" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="prices">
+                <div class="price-box">
+                    <h6>tenor trombone</h6>
+                    <p class="price">$600</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum dolar.</p>
+                    <p>Lorem ipsum.</p>
+                    <input type="submit" name="select" value="SELECT">
+                </div>
+                <div class="price-box">
+                    <h6>tenor trombone</h6>
+                    <p class="price">$600</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum dolar.</p>
+                    <p>Lorem ipsum.</p>
+                    <input type="submit" name="select" value="SELECT">
+                </div>
+                <div class="price-box">
+                    <h6>valve trombone</h6>
+                    <p class="price">$1200</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum.</p>
+                    <p>Lorem ipsum dolar.</p>
+                    <p>Lorem ipsum.</p>
+                    <input type="submit" name="select" value="SELECT">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="text-box">
+            <p>Privacy</p>
+            <p>Terms</p>
+            <p>Contact</p>
+        </div>
+        <div class="copyright">
+            <p>&#169; 2022 by Nino Dautashvili</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+
+</html>
+
